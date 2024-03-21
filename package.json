@@ -1,7 +1,7 @@
 {
-  "name": "spammer-mod",
-  "version": "1.1",
-  "description": "Spams insane amounts of messages",
+  "name": "server-stats",
+  "version": "0.1",
+  "description": "get server info",
   "scripts": {
     "build": "webpack --config webpack.config.js",
     "build-bun": "bun build --bundle ./src/main.ts --outdir=out/ --outfile=out/plugin.js --sourcemap=inline --watch --target browser --entry-naming EaglerForge-[hash].js",
