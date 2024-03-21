@@ -1,13 +1,13 @@
 {
-  "name": "example-typescript-mod",
-  "version": "1.0.0",
-  "description": "Example typescript mod for eaglerforge.",
+  "name": "spammer-mod",
+  "version": "1.1",
+  "description": "Spams insane amounts of messages",
   "scripts": {
     "build": "webpack --config webpack.config.js",
     "build-bun": "bun build --bundle ./src/main.ts --outdir=out/ --outfile=out/plugin.js --sourcemap=inline --watch --target browser --entry-naming EaglerForge-[hash].js",
     "build-es": "esbuild --bundle ./src/main.ts --outfile=out/plugin.js --sourcemap=inline --watch=forever"
   },
-  "author": "your name",
+  "author": "wxnnvs",
   "devDependencies": {
     "css-loader": "^6.8.1",
     "ts-loader": "^9.4.4",
